@@ -122,22 +122,22 @@ h2, .big, a {
 
 .reaction {
     color: var(--light-red);
-    background:hsla(0, 100%, 67%, 10%);
+    background:hsla(0, 100%, 67%, 5%);
 }
 
 .memory {
     color: var(--orangey-yellow);
-    background:hsla(39, 100%, 56%, 10%);
+    background:hsla(39, 100%, 56%, 5%);
 }
 
 .verbal {
     color: var(--green-teal);
-    background:hsl(166, 100%, 37%, 10%);
+    background:hsl(166, 100%, 37%, 5%);
 }
 
 .visual {
     color: var(--cobalt-blue);
-    background:hsl(234, 85%, 45%, 10%);
+    background:hsl(234, 85%, 45%, 5%);
 }
 
 .btn-continue {

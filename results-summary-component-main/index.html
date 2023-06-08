@@ -1,77 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Results summary component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="result-card">
-      <h3>Your Result</h3>
-      <div class="result-points">
-        <p>
-          <span class="big">76</span> 
-          of 100
-        </p>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="result-card">
+        <h3>Your Result</h3>
+        <div class="result-points">
+          <p>
+            <span class="big">76</span> 
+            of 100
+          </p>
+        </div>
+        <h2>Great</h2>
+        <p>You scored higher than 65% of the people who have taken these tests.</p> 
       </div>
-      <h2>Great</h2>
-      <p>You scored higher than 65% of the people who have taken these tests.</p> 
+      <div class="summary-card">
+        <h3>Summary</h3>
+        <div class="summary-points reaction">
+          <div class="title">
+            <img src="assets/images/icon-reaction.svg" alt="Reaction icon">
+            <p>Reaction</p>
+          </div>
+          <p>
+            <span>80</span> / 100
+          </p>
+        </div>
+
+        <div class="summary-points memory">
+          <div class="title">
+            <img src="assets/images/icon-memory.svg" alt="Memory icon">
+            <p>Memory</p>
+          </div>
+          <p>
+            <span>92</span> / 100
+          </p>
+        </div>
+
+        <div class="summary-points verbal">
+          <div class="title">
+            <img src="assets/images/icon-verbal.svg" alt="Verbal icon">
+            <p>Verbal</p>
+          </div>
+          <p>
+            <span>61</span> / 100
+          </p>
+        </div>
+
+        <div class="summary-points visual">
+          <div class="title">
+            <img src="assets/images/icon-visual.svg" alt="Visual icon">
+            <p>Visual</p>
+          </div>
+          <p>
+            <span>72</span> / 100
+          </p>
+        </div>
+
+        <a class="btn-continue" href="#">Continue</a>
+      </div>
     </div>
-    <div class="summary-card">
-      <h3>Summary</h3>
-      <div class="summary-points reaction">
-        <div class="title">
-          <img src="assets/images/icon-reaction.svg">
-          <p>Reaction</p>
-        </div>
-        <p>
-          <span>80</span> / 100
-        </p>
-      </div>
-
-      <div class="summary-points memory">
-        <div class="title">
-          <img src="assets/images/icon-memory.svg">
-          <p>Memory</p>
-        </div>
-        <p>
-          <span>92</span> / 100
-        </p>
-      </div>
-
-      <div class="summary-points verbal">
-        <div class="title">
-          <img src="assets/images/icon-verbal.svg">
-          <p>Verbal</p>
-        </div>
-        <p>
-          <span>61</span> / 100
-        </p>
-      </div>
-
-      <div class="summary-points visual">
-        <div class="title">
-          <img src="assets/images/icon-visual.svg">
-          <p>Visual</p>
-        </div>
-        <p>
-          <span>72</span> / 100
-        </p>
-      </div>
-
-      <a class="btn-continue" href="#">Continue</a>
-    </div>
-  </div>
-</body>
+  </body>
 </html>
